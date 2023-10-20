@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+
 :root{
     --cor01: #F7AD45;
     --cor02: #B60303;
@@ -26,6 +28,7 @@ body{
 
 .card-body{
     text-align: center;
+
 }
 
 .destaque{
@@ -35,22 +38,28 @@ body{
 .competidores{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    
+    
 }
 
 .card-competidores {
     display: flex;
     flex-direction:row;
     justify-content:space-between;
-
     margin-top: 2%;
 }
 
-#carouselExampleInterval {
-    max-width: 500px;
-    max-height: 300px;
-    margin: 0 auto;
+.card-text{
+    color: #000000;
 }
+
+#carouselExampleInterval {
+   margin: 2% auto;
+   width: 700px;
+    
+}
+
 
 .grid-container {
     display: grid;
@@ -64,5 +73,23 @@ body{
 
 .carousel-control-prev, .carousel-control-next{
     align-items: end;
+}
+
+p, h3{
+    color: #ffffff;
+}
+
+.mm{
+    font-size: 24px;
+    margin: 30px;
+}
+
+.d-block{
+    height: 400px;
+    margin: 10px;
+}
+
+body{
+    font-family: 'Playpen Sans', cursive;
 }
 
